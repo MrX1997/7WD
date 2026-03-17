@@ -1,0 +1,29 @@
+CHAOS DUEL - RULES RESKIN SUMMARY
+
+This companion extract mirrors the mythology reskin used by the live app.
+
+Core rules updates:
+- Summoning rituals now use 2d6 + current Summoning Value.
+- The next God a player builds requires 1, 2, 4, then 6 built Buildings.
+- A mythology may be chosen by only one player.
+
+Resource presentation:
+- Wood -> Sacred Timber
+- Clay -> Primordial Clay
+- Stone -> Ancient Stone
+- Glass -> Crystal Relic
+- Papyrus -> Sacred Scroll
+
+Card family presentation:
+- Raw -> Sacred Site
+- Manufactured -> Artifact
+- Civilian -> Temple
+- Science -> Mysticism
+- Commerce -> Pilgrimage
+- Summoning -> Invocation Circle
+- Guild -> Divine Order
+
+Card-name lore reskin:
+- The live card names now follow the mythology naming tables from the reskin brief, while card IDs and logic remain stable for gameplay compatibility.
+
+See rules_extracted_mythologies.txt for the full adapted rule text and the detailed rename tables.

@@ -1,0 +1,14 @@
+{
+  "name": "chaos-duel-electron",
+  "version": "1.0.0",
+  "description": "A local two-player mythology duel with drafting, cult construction, trade, and summoning.",
+  "type": "module",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "set ELECTRON_RUN_AS_NODE=&& electron .",
+    "verify": "node scripts/verify-game.mjs"
+  },
+  "devDependencies": {
+    "electron": "^41.0.2"
+  }
+}

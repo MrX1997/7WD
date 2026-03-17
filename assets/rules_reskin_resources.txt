@@ -1,0 +1,21 @@
+
+MYTHOLOGIES DUEL – RESOURCE RESKIN
+
+Original -> Mythological Name
+
+Wood -> Sacred Timber
+Clay -> Ritual Clay
+Stone -> Monumental Stone
+Glass -> Divine Crystal
+Papyrus -> Sacred Scrolls
+
+Card categories (visual rename only):
+Raw Materials -> Sacred Sites
+Manufactured Goods -> Artifacts
+Civilian Buildings -> Temples
+Scientific Buildings -> Mysticism
+Commercial Buildings -> Pilgrimage
+Military Buildings -> Invocation Circles (Summoning)
+Guilds -> Divine Orders
+
+All mechanics remain identical to the original resource economy.

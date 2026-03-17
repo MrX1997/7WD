@@ -1,0 +1,24 @@
+tate.openMenu = uiState.openMenu === menuName ? null : menuName;
+}
+
+function closeMenus() {
+  uiState.openMenu = null;
+}
+
+function initShellActions() {
+  if (!window.appShell?.onMenuAction) {
+    return;
+  }
+
+  window.appShell.onMenuAction((action) => {
+    if (action === "new-game") {
+      closeMenus();
+      game.reset(game.getMode());
+      render();
+      return;
+    }
+
+    if (action === "rules") {
+      uiState.openRulesMode = game.getMode();
+      uiState.openMenu = "rules";
+      render

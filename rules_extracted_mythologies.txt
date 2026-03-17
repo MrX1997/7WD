@@ -1,0 +1,637 @@
+MYTHOLOGIES DUEL - RULES EXTRACTED (ADAPTED FROM ORIGINAL STRUCTURE)
+
+This variant preserves the core 3-Age drafting, construction, economy, science, chaining, and scoring logic of the original duel structure, while replacing Wonders and military pressure with a mythology-and-summoning system.
+
+--------------------------------------------------
+1. CORE IDEA
+--------------------------------------------------
+Each player leads a cultic network rather than a civilization.
+Across 3 Ages, players construct Buildings exactly as in the base structure: resource production, commerce, science, civilian points, guilds, and chains all remain active.
+
+Main thematic changes:
+- Wonders are replaced by Gods / Cults.
+- Military shields are replaced by Summoning points.
+- Military supremacy is removed.
+- Red cards no longer push a conflict marker. Instead they increase Summoning strength.
+- At the end of each Age, a Summoning Resolution occurs.
+- Winning a Summoning Resolution allows a player to activate Divine Powers from their built Gods.
+
+Victory conditions become:
+1. Scientific Supremacy (unchanged): if you gather 6 different scientific symbols, you win immediately.
+2. Civilian Victory (adapted): if no supremacy occurs, total points at end of Age III.
+
+--------------------------------------------------
+2. COMPONENT CHANGES
+--------------------------------------------------
+Keep:
+- Age I, II, III cards
+- Guild cards
+- Progress tokens
+- Coins
+- Board/card structures
+
+Replace:
+- 12 Wonders -> 16 God cards (4 mythologies x 4 gods each)
+- Conflict pawn / military track -> Summoning track or simply a visible Summoning tally area
+- Military tokens -> optional Summoning bonus markers (see section 8)
+
+Resources remain mechanically identical:
+- Sacred Timber
+- Primordial Clay
+- Ancient Stone
+- Crystal Relic
+- Sacred Scroll
+You may optionally rename them thematically in presentation, but their logic is unchanged.
+
+Suggested flavor renames:
+- Wood -> Sacred Timber
+- Clay -> Primordial Clay
+- Stone -> Ancient Stone
+- Glass -> Crystal Relic
+- Papyrus -> Sacred Scroll
+
+--------------------------------------------------
+3. GOD SETS
+--------------------------------------------------
+There are 4 mythology families. Each family contains 4 possible gods.
+The fourth slot in some mythologies is variable, as indicated below.
+
+Greek
+- Artemis
+- Apollo
+- Athena
+- Zeus or Hera (randomly select one for the game)
+
+Nordic
+- Balder
+- Tyr
+- Odin
+- Loki or Thor (randomly select one for the game)
+
+Americas
+- Huracán
+- Bochica
+- Great Spirit
+- Quetzalcoatl or Inti (randomly select one for the game)
+
+Mesopotamia
+- Enki
+- Enlil
+- Marduk
+- Anu
+
+--------------------------------------------------
+4. GOD SELECTION PHASE
+--------------------------------------------------
+Use a selection structure parallel to the original Wonder draft.
+
+Setup:
+- Before Age I, determine the active 16-god pool:
+  - Greek: Artemis, Apollo, Athena, and randomly Zeus or Hera
+  - Nordic: Balder, Tyr, Odin, and randomly Loki or Thor
+  - Americas: Huracán, Bochica, Great Spirit, and randomly Quetzalcoatl or Inti
+  - Mesopotamia: Enki, Enlil, Marduk, Anu
+- Shuffle all 16 God cards.
+- Reveal 4 Gods.
+- First player chooses 1 God.
+- Second player chooses 2 Gods.
+- First player takes the remaining 1 God.
+- Reveal 4 more Gods and repeat, but starting with the second player.
+
+At the end of this phase, each player has 4 Gods available to build during the game.
+Place them in a column beside your play area.
+
+--------------------------------------------------
+5. BUILDING GODS (REPLACES BUILDING WONDERS)
+--------------------------------------------------
+On your turn, instead of constructing the chosen Age card as a Building or discarding it for coins, you may use it to build one of your unbuilt Gods.
+
+To build a God:
+- Pay the resource cost of the God, not the cost of the chosen Age card.
+- Place the Age card face down under the God to show it has been built.
+- Apply that God's passive build effect immediately if it has one.
+- The used Age card has no effect.
+- Your 1st, 2nd, 3rd, and 4th Gods require 1, 2, 4, and 6 built Buildings respectively before they may be completed.
+
+God limits:
+- Only 7 Gods may be built during a game total.
+- The first player to build a 4th God may do so.
+- Once one player has built 4 Gods, the other player may build only up to 3 Gods total.
+- As soon as the 7th God is built, the last unbuilt God is removed from the game.
+
+This preserves the asymmetry of the original 7-Wonder cap.
+
+--------------------------------------------------
+6. BUILDING COSTS, PRODUCTION, TRADING, CHAINS
+--------------------------------------------------
+These remain unchanged from the original system.
+
+Unchanged mechanics:
+- Free construction on cards that have no cost.
+- Resource production from brown, grey, some yellow cards, and some God effects.
+- Trading cost formula remains:
+  COST = 2 + number of matching brown/grey resource symbols in the opposing city
+- Yellow card discounts still work exactly the same.
+- Chain construction still works exactly the same.
+- Resources are not spent permanently; they are production capacity.
+
+--------------------------------------------------
+7. CARD COLOR FUNCTIONS
+--------------------------------------------------
+Brown cards: unchanged resource production.
+Grey cards: unchanged manufactured goods production.
+Blue cards: unchanged victory point buildings.
+Green cards: unchanged science symbols and science pressure.
+Yellow cards: unchanged coins / trade / flexible production logic.
+Purple cards: unchanged guild scoring logic.
+Red cards: transformed.
+
+NEW RED CARD FUNCTION:
+Red cards are now Invocation / Summoning Buildings.
+- Each shield on a red card becomes 1 Summoning point.
+- A red card with 2 shields gives 2 Summoning points.
+- A red card with 3 shields gives 3 Summoning points.
+
+Important:
+- Red cards no longer move a conflict pawn.
+- There is no military track.
+- Red cards matter because they increase your power in end-of-Age Summoning Resolutions and may also score via adapted guild effects.
+
+--------------------------------------------------
+8. SUMMONING SYSTEM
+--------------------------------------------------
+The military system is replaced by ritual competition between cults.
+
+8.1 Summoning Value
+Each player has a Summoning Value for the current Age:
+Summoning Value = total Summoning points from:
+- red cards in their city
+- any built God that explicitly grants passive Summoning bonuses
+- any Progress token or special effect that explicitly grants Summoning bonuses
+
+Recommended balance rule:
+- Count all currently built red cards each Age.
+- Summoning is cumulative across the game, unless a card effect destroys a red card.
+
+8.2 End of Age Summoning Resolution
+At the end of each Age, after all cards in the structure have been played:
+- Each player rolls two six-sided dice.
+- Each player adds their current Summoning Value.
+- Higher total wins the Summoning Resolution for that Age.
+
+Formula:
+Summoning Result = 2d6 + current Summoning Value
+
+If tied:
+Apply these tie-breakers in order:
+1. Higher base Summoning Value wins.
+2. If still tied, the player who did not start the current Age wins the ritual.
+
+8.3 Reward for Winning a Summoning Resolution
+If you win the Summoning Resolution of an Age:
+- You gain 1 Divine Activation for EACH of your built Gods.
+- You may resolve these activations immediately, in any order.
+- If a God's power is persistent or repeatable, it is considered to have been activated once for that win.
+
+Crucially:
+- The powers of a God can be used as many times over the course of the game as the player wins Summoning Resolutions.
+- If you built 3 Gods and win the Age II Summoning Resolution, you activate all 3 once.
+- If you win again in Age III, each of those built Gods activates again once.
+
+8.4 Optional Summoning Bonus Markers
+To preserve the feel of crossing thresholds from the original military track, you may add 4 face-up Summoning Bonus markers to the board:
+- Lesser Favor: opponent loses 2 coins
+- Greater Favor: opponent loses 5 coins
+- Sacred Omen: immediately gain 1 coin per built God
+- Ritual Momentum: choose who begins next Age
+
+Recommended trigger:
+- The first player in the game to reach 3, 6, 9, and 12 total printed Summoning points claims one marker.
+- Each marker can be claimed only once.
+
+This is optional, but it helps red cards stay tense throughout the game.
+
+--------------------------------------------------
+9. START PLAYER FOR NEXT AGE
+--------------------------------------------------
+Because military track is removed, use this adapted rule:
+- The player who WON the Summoning Resolution begins the next Age.
+- Because the tie-break rules always determine a winner, each Age ends with one ritual victor.
+
+This keeps ritual momentum tied to successful summoning.
+
+--------------------------------------------------
+10. DIVINE POWERS BY GOD
+--------------------------------------------------
+Balance principle:
+- Tier A gods: strong tempo / removal / science swing
+- Tier B gods: economy / flexible production / points
+- Tier C gods: pressure / disruption / situational scaling
+
+Each mythology is designed to have a spread of utility, tempo, economy, and point pressure.
+
+--------------------------------
+GREEK GODS
+--------------------------------
+Athena
+Power: Gain 1 Progress token of your choice from those currently available on the board.
+If none are available, gain 4 coins instead.
+Notes: very strong strategic swing; equivalent to your proposal.
+
+Zeus
+Power: Destroy up to 2 Buildings of your opponent.
+Restrictions for balance:
+- They cannot be blue Guild cards (purple) or already built Gods.
+- They may be any combination of brown, grey, yellow, red, blue, or green standard Buildings.
+- Destroyed cards are discarded.
+Notes: extremely strong disruption, therefore restricted from deleting guilds/gods.
+
+Hera
+Power: Take control of 1 eligible Building from your opponent.
+Restrictions:
+- You may steal a brown, grey, yellow, or blue card only.
+- You cannot steal green, red, purple, or a built God.
+- Move the card to your city; your opponent loses it.
+Notes: stealing flexible utility is powerful but less explosive than Zeus.
+
+Artemis
+Power: Gain 1 resource of your choice for the current and future turns.
+Mechanically: place a marker showing permanent production of exactly 1 chosen basic or manufactured resource.
+Clarification:
+- Choose one of Wood, Clay, Stone, Glass, or Papyrus when activated.
+- This production does not affect the opponent's trading costs unless you choose to let all permanent production count normally. Recommended: it DOES count if it is a true produced resource.
+Notes: stronger and cleaner than a one-shot resource.
+
+Apollo
+Power: Gain 5 coins from the bank.
+Notes: simple economic deity; exactly as proposed.
+
+--------------------------------
+NORDIC GODS
+--------------------------------
+Balder
+Power: Gain 3 victory points and 2 coins.
+Notes: stable value god; rewards repeated wins without snowballing too hard.
+
+Tyr
+Power: Gain 2 Summoning points for the NEXT Summoning Resolution only.
+Use a marker to remember this.
+If activated during Age III, instead gain 4 victory points.
+Notes: strong ritual war-god, but delayed and bounded.
+
+Odin
+Power: Look at the top 3 cards of the discard pile or, if using open discard, choose 1 discarded card and construct it for free.
+Restrictions:
+- You must still obey the 7-God cap; this cannot be used to build a God unless a separate rule allows it.
+- If no suitable card exists, gain 4 coins instead.
+Notes: mirrors wisdom/sacrifice and echoes mausoleum-like recovery without fully duplicating it.
+
+Loki
+Power: Copy the activated power of one of your other built Gods this Summoning Resolution.
+Restrictions:
+- Loki cannot copy Loki.
+- If Loki is your only built God, gain 3 coins instead.
+Notes: very high skill ceiling, but dependent on setup.
+
+Thor
+Power: Destroy 1 red card or 1 yellow card in your opponent's city. Then gain 1 coin.
+If they have neither, gain 3 coins instead.
+Notes: narrower than Zeus, but repeatable pressure on summoning/economy engines.
+
+--------------------------------
+AMERICAS GODS
+--------------------------------
+Huracán
+Power: Your opponent loses 3 coins. You gain 3 coins.
+If the opponent has fewer than 3 coins, they lose all remaining coins and you still gain 3.
+Notes: strong swing, but less brutal than major removal.
+
+Bochica
+Power: Immediately gain 1 science symbol of your choice until end of game.
+Use a Bochica marker to track it.
+If this gives you 6 different scientific symbols, you win immediately.
+Restriction:
+- Bochica may only grant a symbol not already provided by Bochica before.
+Notes: powerful, but tied to science lane.
+
+Great Spirit
+Power: Choose one:
+- gain 1 flexible raw resource (Wood/Clay/Stone each turn), or
+- gain 1 flexible manufactured resource (Glass/Papyrus each turn), or
+- gain 3 victory points.
+Flexible production from this power does not increase opponent trading costs.
+Notes: broad spiritual versatility; one of the best balancing anchors in the set.
+
+Quetzalcoatl
+Power: Build one accessible card for free this turn, immediately after resolution.
+Restrictions:
+- This free build must be a Building, not a God.
+- If no accessible card is available because the Age has ended, gain 5 coins instead.
+Notes: strong tempo and chaining support.
+
+Inti
+Power: Gain 6 coins OR 4 victory points, your choice.
+Notes: clean solar prosperity god; replaces Quetzalcoatl when selected out.
+
+--------------------------------
+MESOPOTAMIAN GODS
+--------------------------------
+Enki
+Power: Gain 1 resource discount boon.
+Choose one resource type among Wood, Clay, Stone, Glass, Papyrus.
+For the rest of the game, you buy that resource from the bank for 1 coin each.
+If you activate Enki again, you may choose a different resource type.
+Notes: very strong long-term commerce god; excellent early, modest late.
+
+Enlil
+Power: Immediately reveal one face-down accessible-hidden card in the current Age structure, then gain 2 coins.
+If no face-down card remains, gain 4 coins instead.
+Notes: information plus tempo; subtle but powerful in skilled play.
+
+Marduk
+Power: Gain 2 victory points and choose one:
+- gain 2 coins, or
+- gain 1 Summoning point for the next Summoning Resolution only.
+Notes: flexible king-god, tuned to be solid in every game state.
+
+Anu
+Power: Choose one unused Progress token from the box at random among 3 unseen tokens; keep 1 and return the others.
+If no such tokens remain, gain 5 victory points instead.
+Notes: echoes cosmic authority; strong but capped by token pool.
+
+--------------------------------------------------
+11. GOD COST TIERS (RECOMMENDED BALANCE)
+--------------------------------------------------
+To keep the build order and power curve balanced, classify gods into 3 construction tiers.
+
+Tier I - easier to build, economy/flexibility gods
+Suggested cost: any 2 resources OR 1 resource + 2 coins
+Examples:
+- Apollo
+- Artemis
+- Balder
+- Great Spirit
+- Enki
+- Enlil
+
+Tier II - medium strength, tactical swing gods
+Suggested cost: 3 resources
+Examples:
+- Athena
+- Tyr
+- Huracán
+- Inti
+- Marduk
+- Odin
+
+Tier III - high-impact gods
+Suggested cost: 4 resources, or 3 resources + 2 coins
+Examples:
+- Zeus
+- Hera
+- Loki
+- Thor
+- Bochica
+- Quetzalcoatl
+- Anu
+
+Recommended constraint:
+- A player may not build more than 2 Tier III gods in one game.
+This avoids stacking too many explosive effects.
+
+--------------------------------------------------
+12. PROGRESS TOKENS - ADAPTED INTERACTIONS
+--------------------------------------------------
+All Progress tokens remain, but Strategy must be adapted.
+
+Unchanged:
+- Agriculture
+- Architecture
+- Economy
+- Law
+- Masonry
+- Mathematics
+- Philosophy
+- Theology
+- Urbanism
+
+Adapted Strategy token:
+Original military bonus is replaced.
+New Strategy effect:
+- Your future red cards provide +1 additional Summoning point.
+- This does not affect red cards already built.
+- This does not affect built Gods unless they explicitly grant Summoning points.
+
+This preserves the timing logic of the original token.
+
+--------------------------------------------------
+13. GUILDS - ADAPTED INTERACTIONS
+--------------------------------------------------
+Most guilds remain unchanged.
+Only the guild tied to red cards needs reinterpretation.
+
+Unchanged:
+- Builders Guild
+- Moneylenders Guild
+- Scientists Guild
+- Shipowners Guild
+- Traders Guild
+- Magistrates Guild
+
+Adapted Tacticians Guild:
+- At construction: gain 1 coin for each red card in the city with the most red cards.
+- Endgame: gain 1 victory point for each red card in the city with the most red cards.
+Interpretation: red cards represent Ritual / Invocation institutions rather than military buildings.
+
+--------------------------------------------------
+14. END OF GAME AND SCORING
+--------------------------------------------------
+A game ends immediately if:
+- a player reaches Scientific Supremacy, or
+- a player achieves Cult Supremacy at the end of an Age.
+
+If no supremacy occurs, the game ends after Age III and players total points.
+
+Score:
+- Victory points from Buildings
+- Victory points from built Gods
+- Victory points from Progress tokens
+- Victory points from Guilds
+- Treasury: each full set of 3 coins = 1 victory point
+- Summoning bonus: recommended endgame bonus based on number of won Summoning Resolutions:
+  - 0 wins: 0 VP
+  - 1 win: 2 VP
+  - 2 wins: 5 VP
+  - 3 wins: 10 VP
+This replaces the original military-track endgame score and preserves its scale.
+
+Tiebreaker:
+- player with most points from blue Buildings wins
+- if still tied, shared victory
+
+--------------------------------------------------
+15. RECOMMENDED GOD VP VALUES
+--------------------------------------------------
+To preserve wonder-like scoring texture, assign printed VP on Gods.
+
+Greek
+- Artemis: 2 VP
+- Apollo: 2 VP
+- Athena: 3 VP
+- Zeus/Hera: 4 VP
+
+Nordic
+- Balder: 3 VP
+- Tyr: 2 VP
+- Odin: 3 VP
+- Loki/Thor: 4 VP
+
+Americas
+- Huracán: 2 VP
+- Bochica: 4 VP
+- Great Spirit: 3 VP
+- Quetzalcoatl/Inti: 3 VP
+
+Mesopotamia
+- Enki: 2 VP
+- Enlil: 2 VP
+- Marduk: 3 VP
+- Anu: 4 VP
+
+--------------------------------------------------
+16. MECHANICAL CHANGES ADDED IN THIS ADAPTATION
+--------------------------------------------------
+Compared with the original duel structure, this variant adds or changes the following mechanics:
+
+1. Wonder draft replaced by God draft.
+2. Wonders replaced by cult construction of Gods.
+3. Global cap of 7 Wonders replaced by global cap of 7 built Gods.
+4. First player may build 4 Gods; second player may build only 3.
+5. Military track removed entirely.
+6. Shields converted into Summoning points on red cards.
+7. End-of-Age Summoning Resolution added:
+   - 2d6 + Summoning Value
+8. Winning a Summoning Resolution grants Divine Activations for each built God.
+9. Divine powers are repeatable across Ages whenever Summoning is won.
+10. Start-player selection for the next Age now depends on losing the Summoning Resolution.
+11. Strategy token adapted to buff future red cards as Summoning cards.
+12. Optional threshold-based Summoning Bonus markers added to preserve tempo spikes from the original military zones.
+13. New Cult Supremacy win condition added.
+14. Endgame military scoring replaced by Summoning Resolution scoring.
+15. God power tiers introduced to prevent removal/tempo gods from dominating the draft.
+
+--------------------------------------------------
+17. DESIGN NOTES FOR BALANCE
+--------------------------------------------------
+Recommended balancing decisions included here:
+- Zeus cannot destroy guilds or gods.
+- Hera cannot steal green, red, purple, or gods.
+- Bochica grants strong science pressure but is Tier III and expensive.
+- Loki is only strong if supported by other gods.
+- Great Spirit and Enki are long-term value engines rather than explosive tempo.
+- Tyr's bonus is delayed to avoid instant snowballing.
+- Quetzalcoatl grants tempo but not God-construction tempo.
+- Optional threshold markers are included to help red cards stay relevant throughout all 3 Ages.
+
+--------------------------------------------------
+18. PRESENTATION RESKIN
+--------------------------------------------------
+Temple names:
+- altar -> Temple of First Blood
+- baths -> Sacred Bath of Renewal
+- gardens -> Garden of the Eternal Grove
+- theater -> Temple of Prophecy
+- statue -> Idol of the Ascended One
+- temple -> Sanctum of the Eternal Flame
+- palace -> Throne of the High Gods
+- town_hall -> Council of the Sacred Throne
+- obelisk -> Obelisk of the Fallen Sky
+- pantheon -> Hall of the Thousand Gods
+- senate -> Chamber of Divine Law
+- rostrum -> Oracle's Tribunal
+- tribunal -> Judgement of the Ancestors
+- courthouse -> Temple of Sacred Judgment
+- circus -> Arena of the Celestial Trials
+
+Mysticism names:
+- apothecary -> Elixir of the Hidden Veil
+- dispensary -> Sanctuary of Sacred Remedies
+- pharmacist -> Keeper of the Serpent Elixir
+- laboratory -> Alchemist's Forbidden Forge
+- workshop -> Rune-Forging Sanctum
+- school -> Academy of Hidden Truths
+- academy -> Tower of Arcane Mastery
+- library -> Library of Lost Gods
+- study -> Chamber of Forbidden Scrolls
+- university -> Citadel of Divine Knowledge
+- observatory -> Celestial Watchtower
+- scriptorium -> Codex of the Ancient Mystics
+
+Pilgrimage names:
+- tavern -> Pilgrim's Hall of Revelry
+- brewery -> Mead Hall of the Storm Gods
+- port -> Harbor of Sacred Voyages
+- lighthouse -> Beacon of the Guiding Star
+- forum -> Pilgrim Market of the Ancients
+- caravansery -> Caravan of the Sacred Path
+- customs_house -> Gate of Tribute
+- chamber_of_commerce -> Chamber of Divine Tribute
+- arena -> Pilgrimage Arena of Glory
+
+Sacred Site / resource names:
+- lumber_yard -> Grove of the Sacred Timber
+- logging_camp -> Forest Shrine of the Ancients
+- clay_pool -> Pool of Primordial Clay
+- clay_pit -> Clay Shrine of the Earth Mother
+- quarry -> Quarry of the Earth Spirits
+- stone_pit -> Stone Shrine of the Titans
+- sawmill -> Mill of the World Tree
+- brickyard -> Kiln of the Eternal Builders
+- shelf_quarry -> Cliff of the Stone Ancestors
+- stone_reserve -> Vault of Living Stone
+- clay_reserve -> Vault of Sacred Clay
+- wood_reserve -> Sacred Timber Vault
+
+Artifact names:
+- glassworks -> Crucible of Crystal Souls
+- glassblower -> Artisan of Spirit Glass
+- press -> Relic Press of the Sacred Oils
+- drying_room -> Chamber of Preserved Relics
+
+Invocation Circle names:
+- guard_tower -> Circle of Watchful Spirits
+- palisade -> Circle of the Bone Barrier
+- walls -> Invocation of the Titan Wall
+- barracks -> Circle of the Warbound
+- stable -> Circle of the Thunder Steeds
+- horse_breeders -> Circle of the War Beasts
+- archery_range -> Circle of the Sky Hunters
+- garrison -> Circle of the Iron Legion
+- armory -> Circle of Forged Blades
+- arsenal -> Circle of the Endless Armory
+- parade_ground -> Circle of the Marching Spirits
+- siege_workshop -> Circle of Cataclysm
+- fortifications -> Circle of the Unbreakable Gate
+
+Mythic Order names:
+- builders_guild -> Order of the World Architects
+- merchants_guild -> Covenant of Golden Pilgrims
+- shipowners_guild -> Brotherhood of Ocean Prophets
+- magistrates_guild -> Tribunal of the Sacred Law
+- scientists_guild -> Conclave of the Hidden Truth
+- moneylenders_guild -> Covenant of the Coin Oracles
+- tacticians_guild -> War Council of the Summoners
+
+--------------------------------------------------
+19. IMPLEMENTED RULES OVERRIDES
+--------------------------------------------------
+The live Chaos Duel build currently uses these setup and ritual rules:
+- The opening priority roll is 2d6 per player.
+- The higher total chooses a mythology first.
+- The lower total begins Age I.
+- A mythology may be chosen by only one player.
+- The next God a player builds requires 1, 2, 4, then 6 built Buildings.
+- End-of-Age Summoning uses 2d6 + current Summoning Value.
+- If totals tie, higher base Summoning Value wins.
+- If still tied, the player who did not start the Age wins the ritual.
+- The Summoning winner begins the next Age.
