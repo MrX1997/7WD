@@ -1831,3 +1831,7 @@ h4 {
     width: 150px;
   }
 }
+
+.web-mode [data-action="quit"] {
+  display: none;
+}

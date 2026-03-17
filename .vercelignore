@@ -1,0 +1,10 @@
+node_modules
+main.cjs
+preload.cjs
+package-lock.json
+scripts
+tmp_*
+.git
+.gitattributes
+rules_extracted.txt
+rules_extracted_mythologies.txt

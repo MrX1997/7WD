@@ -1,5 +1,10 @@
 import { DuelGame, getRulesReference } from "./game/engine.js";
 
+const IS_WEB = !window.appShell;
+if (IS_WEB) {
+  document.documentElement.classList.add("web-mode");
+}
+
 const appRoot = document.querySelector("#app");
 const game = new DuelGame();
 
